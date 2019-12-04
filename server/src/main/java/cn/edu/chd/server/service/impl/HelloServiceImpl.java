@@ -1,4 +1,4 @@
-package cn.edu.chd.db_middleware.service.impl;
+package cn.edu.chd.server.service.impl;
 
 import cn.edu.chd.common.entity.User;
 import org.springframework.stereotype.Service;

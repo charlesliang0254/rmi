@@ -1,10 +1,10 @@
 package cn.edu.chd.client;
 
-import cn.edu.chd.client.service.HelloService;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.remoting.rmi.RmiProxyFactoryBean;
+import cn.edu.chd.common.service.HelloService;
 
 @SpringBootApplication
 public class ClientApplication {

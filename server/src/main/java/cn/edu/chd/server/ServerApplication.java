@@ -1,4 +1,4 @@
-package cn.edu.chd.db_middleware;
+package cn.edu.chd.server;
 
 import cn.edu.chd.common.service.HelloService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,7 +11,7 @@ import org.springframework.remoting.rmi.RmiServiceExporter;
 import java.rmi.RemoteException;
 
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
-public class DbMiddlewareApplication {
+public class ServerApplication {
     @Autowired
     private HelloService helloService;
 
@@ -32,7 +32,7 @@ public class DbMiddlewareApplication {
     }
 
     public static void main(String[] args) {
-        SpringApplication.run(DbMiddlewareApplication.class, args);
+        SpringApplication.run(ServerApplication.class, args);
     }
 
 }
